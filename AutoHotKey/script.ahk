@@ -13,11 +13,6 @@ CapsLock::
 
 #HotIf GetKeyState("CapsLock", "P")
 
-e::
-{
-    Send("|")
-}
-
 q::
 {
     Send("/")
@@ -26,6 +21,11 @@ q::
 w::
 {
     Send("?")
+}
+
+e::
+{
+    Send("|")
 }
 
 r::
